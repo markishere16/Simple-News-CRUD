@@ -1,15 +1,16 @@
 <template>
 <div>
     <b-navbar type="dark" variant="success">
-        <b-container fluid class="d-flex justify-content-center" >
-            <span class="navbar-brand ">East Vantage Technical Exam by: Mark Joshua Elimar R. Mandigma</span>
+        <b-container fluid class="d-flex justify-content-center flex-wrap" >
+            <span class="navbar-brand ">East Vantage Technical Exam </span>
+            <span class="text-white">by: <b>Mark Joshua Elimar R. Mandigma</b> </span>
         </b-container>
     </b-navbar>
 
     <main class="mt-5">
         <b-container v-if="!isPreview">
             <b-row>
-                <b-col class="px-0">
+                <b-col >
                     <h2>Simple News App</h2>
                 </b-col>
                 <b-col>

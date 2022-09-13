@@ -1,10 +1,10 @@
 <template>
 <div>
 
-    <b-container style="width:1000px">
+    <b-container style="max-width:1000px">
 
         <b-row>
-            <b-col class="px-0">
+            <b-col >
                 <b-button v-b-toggle.collapse-1 variant="success" @click="editHandler()">
                     <b-icon :icon="toggleEdit == true ? 'save' : 'pencil'"></b-icon>
                     {{toggleEdit == true ? 'Save' : 'Edit'}}
@@ -22,7 +22,7 @@
         </b-row>
 
         <hr>
-        <div v-if="!toggleEdit">
+        <b-row v-if="!toggleEdit">
             <b-row class="text-center m-auto" style="width:80%">
                 <h2>{{news.title}}</h2>
                 <p>{{moment(new Date(news.date)).format("MMMM D, YYYY, hh:mm a")}}</p>
@@ -32,7 +32,7 @@
                 <div v-html="news.content"></div>
             </b-row>
 
-        </div>
+        </b-row>
 
         <b-row v-if="toggleEdit">
             <formNews :news="news" :type="'edit'" v-on:closeEdit="toggleEdit = false" />

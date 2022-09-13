@@ -10,7 +10,7 @@
         </b-dropdown>
     </div>
     <b-row no-gutters class="h-100">
-        <b-col md="5" class="bg-success p-0">
+        <b-col md="5" class="bg-success p-0 cursor-pointer" role='button' @click="$emit('previewNews',news)">
 
             <div class="text-white d-flex justify-content-center" style="height:100%;align-items: center;" :style="backgroundOverLay(news.id)">
                 <div class="text-center">
@@ -20,8 +20,8 @@
                 </div>
             </div>
         </b-col>
-        <b-col md="7">
-            <b-card-body :title="news.title">
+        <b-col md="7" >
+            <b-card-body :title="news.title" @click="$emit('previewNews',news)" role='button'>
                 <b-card-text>
                     <div v-text="stripHtml(news.content)"></div>
                     <a href="#" @click="$emit('previewNews',news)" >Read more</a>
