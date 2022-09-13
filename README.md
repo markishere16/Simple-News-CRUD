@@ -1,7 +1,4 @@
-# Simple-News-CRUD
-Sample Video Demo: https://www.loom.com/share/59cf4f1158c2462789927b8fd83b1a9a
 
-#Demo link
 
 ## Project Setup
 
