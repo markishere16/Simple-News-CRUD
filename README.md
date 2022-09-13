@@ -2,9 +2,9 @@
 Sample Video Demo: https://www.loom.com/share/59cf4f1158c2462789927b8fd83b1a9a
 
 #Demo
-```sh
-Demo: https://vue-simple-news-app.netlify.app/d
-```
+
+Demo:[ https://vue-simple-news-app.netlify.app/d](Vue Simple News App)
+
 
 
 ## Project Setup
