@@ -1,14 +1,7 @@
 # Simple-News-CRUD
+Sample Video Demo: https://www.loom.com/share/59cf4f1158c2462789927b8fd83b1a9a
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+#Demo link
 
 ## Project Setup
 
