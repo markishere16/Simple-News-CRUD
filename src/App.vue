@@ -1,9 +1,12 @@
 <template>
 <div>
     <b-navbar type="dark" variant="success">
-        <b-container fluid class="d-flex justify-content-center flex-wrap" >
-            <span class="navbar-brand ">News Application </span>
-            <span class="text-white">by: <b>Mark Joshua Elimar R. Mandigma</b> </span>
+        <b-container fluid class="d-flex justify-content-space-between flex-wrap" >
+            <span class="navbar-brand "> <b>News Application <br> by: Mark Joshua Elimar R. Mandigma</b> </span>
+            <h4 class="text-white"> 
+            <br>
+            <a  class="text-white" target="_blank" href="https://www.youtube.com/watch?v=5suWZ4UXdeA&ab_channel=markjoshuaMandigma">Video Demo</a>
+            </h4>
         </b-container>
     </b-navbar>
 
@@ -108,6 +111,9 @@ export default {
         closeModal() {
             this.$refs['my-modal'].hide()
         },
+    },
+    mounted() {
+        this.$store.dispatch('initNews');
     }
 
 }
