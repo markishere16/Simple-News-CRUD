@@ -2,7 +2,7 @@
 <div>
     <b-navbar type="dark" variant="success">
         <b-container fluid class="d-flex justify-content-center flex-wrap" >
-            <span class="navbar-brand ">East Vantage Technical Exam </span>
+            <span class="navbar-brand ">News Application </span>
             <span class="text-white">by: <b>Mark Joshua Elimar R. Mandigma</b> </span>
         </b-container>
     </b-navbar>
